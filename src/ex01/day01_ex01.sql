@@ -7,5 +7,5 @@ FROM (
                      2 AS n
     FROM menu m
     ORDER BY n, object_name
-    )
-;
+    );
+    

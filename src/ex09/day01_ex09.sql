@@ -14,5 +14,5 @@ WHERE (SELECT id
 FROM pizzeria
 EXCEPT
 SELECT pv.pizzeria_id
-FROM person_visits pv) = zz.id
+FROM person_visits pv) = zz.id;
 
